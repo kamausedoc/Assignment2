@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body style="background-color: black; color: rgb(6, 0, 0);">
+    <div id="header">
+        <div class="jina">
+            <h1>WAKADINALI</h1>
+        </div>
+        
+    
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="services.html">services</a><a></a></li>
+        
+                    </ul>
+                </nav>
+            </div>
+    </div>
+
+
+
+
+
+    <h1 style="background-color: rgb(60, 149, 181); text-align: center;">Our Services</h1>
+    <table style="background-color: white;">
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Concerts</td>
+                <td>Live performances at various venues and events.</td>
+                <td>$1500</td>
+            </tr>
+            <tr>
+                <td>Merchandise</td>
+                <td>Exclusive Wakadinali branded apparel and accessories.</td>
+                <td>Varies</td>
+            </tr>
+            <tr>
+                <td>Collaborations</td>
+                <td>Music collaborations with other artists and producers.</td>
+                <td>Contact for pricing</td>
+            </tr>
+            <tr>
+                <td>Studio Sessions</td>
+                <td>Private studio recording sessions with the band.</td>
+                <td>$200 per hour</td>
+            </tr>
+            <tr>
+                <td>Workshops</td>
+                <td>Educational workshops on music production and performance.</td>
+                <td>$300</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1 style="background-color: rgb(60, 149, 181); text-align: center; margin-top: 20px; width: 40%; margin-left: 380px;">Service Request Form</h1>
+    <form id="serviceForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="service">Service:</label>
+        <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option value="concerts">Concerts</option>
+            <option value="merchandise">Merchandise</option>
+            <option value="collaborations">Collaborations</option>
+            <option value="studio">Studio Sessions</option>
+            <option value="workshops">Workshops</option>
+        </select>
+        
+        <label for="details">Details:</label>
+        <textarea id="details" name="details" required></textarea>
+        
+        <button type="submit">SUBMIT</button>
+    </form>
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer>
+        
+            </div>
+            <div class="footer-top">
+                <div class="support">
+                    <p>Support me via Mpesa Till number: 9769037</p>
+                <div class="footer-logo">
+                    <img src="Photos/mad.jpg" alt="Wakadinali Logo" >
+                    <p>Man a drilla</p>
+                </div>
+                <div class="footer-info">
+                    <p>Follow us:</p>
+                    <ul class="social-icons">
+                        <li><a href="https://facebook.com/wakadinali" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/wakadinali" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/wakadinali/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="mailto:info@wakadinali.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                
+                <p>&copy; 2024 Wakadinali. All rights reserved. | Designed by: John Kamau |John Keith | Brian Kiptoo</p>
+            </div>
+        </footer>
+    
+</body>
+</html>
